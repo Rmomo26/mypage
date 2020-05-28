@@ -1,0 +1,187 @@
+li{
+  list-style:none;
+}
+
+.clear{
+  clear:left;
+}
+
+header{
+  background-color:rgba(34,49,52,0.9);
+  position:fixed;
+  top:0px;
+  width:100%;
+  z-index:10;
+  height:80px;
+}
+
+header h2,p{
+  color:white;
+  opacity:0.8;
+}
+
+.header-logo{
+  float:left;
+  padding-left:25px;
+}
+
+.contact{
+  float:right;
+  line-height:0px;
+  padding-right:25px;
+}
+
+.twitter{
+  color:white;
+  display:inline-block;
+  background-color:#55acee;
+  opacity:0.8;
+  padding:15px;
+  margin-left:50px;
+  border-radius: 10px;
+}
+
+.twitter:hover{
+  cursor:pointer;
+  opacity:1;
+
+}
+
+.top-wrapper{
+  height:500px;
+  background-image: url(https://images.unsplash.com/5/unsplash-bonus.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+  background-size:cover;
+  opacity: 0.7;
+  color:white;
+  padding-top:100px;
+
+  width:100%;
+}
+
+.profile{
+  color:white;
+  opacity:0.8;
+  margin-left:50px;
+}
+
+.profile p{
+  font-size:24px;
+}
+
+.profile li{
+  font-size:20px;
+}
+
+.skills{
+  background-color:#f7f7f7;
+  padding-top:80px;
+}
+
+.skill-wrapper{
+  width:1170px;
+  margin:0 auto;
+}
+
+.skill{
+  width:33.333%;
+  float:left;
+  text-align:center;
+}
+
+.heading{
+  font-weight:bold;
+  color:#5f5d60;
+  font-size:32px;
+  text-align:center;
+  padding-bottom:50px;
+}
+
+
+.skill-contents{
+  color:red;
+}
+
+.logo{
+  position:relative;
+}
+
+.logo p{
+  position:absolute;
+  top:75px;
+  width:100%;
+  color:white;
+}
+
+.skill-contents{
+  color:#5f5d60;
+  text-align: center;
+}
+
+.intro{
+  background-color: rgba(34,49,52,0.5);
+  height:120px;
+  opacity:0.8;
+  font-family:"Times New Roman";
+}
+
+.blog{
+  padding-top:20px;
+  padding-left:45px;
+  text-align:center;
+}
+
+
+.blog h3{
+  color:white;
+  font-weight:normal;
+  line-height:10px;
+}
+
+.intro a{
+  color:white;
+  display:inline-block;
+  background-color:
+  font-size:20px;
+}
+
+.contact-form{
+  padding-left:40px;
+  padding-bottom:30px;
+  background-image:url(https://images.unsplash.com/photo-1484157239365-80e635261db7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+  padding-top:30px;
+  background-size:cover;
+}
+
+.contact-form h3{
+  color:black;
+  border-bottom:2px solid black;
+  padding-bottom:15px;
+  margin-bottom:30px;
+}
+
+.contact-form p{
+  color:black;
+  margin-bottom:10px;
+}
+
+input,textarea{
+  width:300px;
+  border:1px solid black;
+  font-size:18px;
+}
+
+.submit{
+  margin-top:10px;
+  display:block;
+  background-color:gray;
+  opacity:0.8;
+  box-shadow:0px 7px rgba(34,49,52,0.9);
+  color:white;
+  width:300px;
+}
+
+.submit:active{
+  box-shadow:none;
+  position: relative;
+  top:7px;
+}
